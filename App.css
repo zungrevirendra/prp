@@ -1,0 +1,28 @@
+.converter {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 2rem;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+}
+
+.input-group {
+  display: flex;
+  gap: 1rem;
+  margin: 1rem 0;
+}
+
+.input-group input, 
+.input-group select {
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.input-group input {
+  flex: 1;
+}
+
+.input-group select {
+  min-width: 150px;
+}
